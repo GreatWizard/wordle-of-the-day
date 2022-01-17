@@ -1,0 +1,14 @@
+{
+  "name": "wordle-of-the-day",
+  "version": "0.0.0",
+  "license": "AGPL-3.0",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "prebuild": "rm -rf dist",
+    "build": "parcel build src/index.html --public-url ./",
+    "postbuild": "echo 'wotd.greatwizard.fr' > dist/CNAME"
+  },
+  "dependencies": {
+    "parcel": "^2.2.0"
+  }
+}
