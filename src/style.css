@@ -19,14 +19,14 @@ a:focus {
   background-color: #538d4e;
   color: #d8d8d8;
   display: inline-flex;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
-  height: 40px;
+  height: 62px;
   justify-content: center;
   line-height: 32px;
   text-transform: uppercase;
   vertical-align: middle;
-  width: 40px;
+  width: 62px;
 }
 
 .top-space {
