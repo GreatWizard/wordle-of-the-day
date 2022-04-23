@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "Clear Sans";
+  src: url("ClearSans-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Clear Sans";
+  src: url("ClearSans-Bold.woff") format("woff");
+  font-weight: 700;
+}
+
 html {
   background-color: rgb(18, 18, 19);
   color: rgb(215, 218, 220);
